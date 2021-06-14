@@ -394,7 +394,7 @@ And then you can use the function syntax:
 
 ##### Problem
 
-Sometimes you need to extend the base template itself. This might happen when there's no easy and obvious way to extend blocks already present in a template. Lets use Quark as an example for parent theme and you want to extend `themes/quark/templates/partials/base.html.twig` to your `myTheme` theme. 
+Sometimes you need to extend the base template itself. This might happen when there's no easy and obvious way to extend blocks already present in a template. Let's use Quark as an example for parent theme and you want to extend `themes/quark/templates/partials/base.html.twig` to your `myTheme` theme. 
 
 ##### Solution
 
@@ -424,7 +424,7 @@ You can add Quark as a Twig namespace by using the theme's `my-theme.php` to lis
     }
 [/prism]
 
-Now in `themes/my-theme/templates/partials/base.html.twig` you can extend Quarks base template like this:
+Now in `themes/my-theme/templates/partials/base.html.twig` you can extend Quark's base template like this:
 
 [prism classes="language-twig line-numbers"]
     {% extends '@quark/partials/base.html.twig' %}

@@ -18,7 +18,7 @@ The Sora Article skeleton has a form page ready to see while reading this tutori
 
 [Page markdown file](https://raw.githubusercontent.com/getgrav/grav-skeleton-soraarticle-blog/develop/pages/03.contact/form.md)
 
-### Setup the Page
+### Set Up the Page
 
 You can put a form inside any page of your site. All you need to do is rename the page markdown file to `form.md`, or add a [template](../../../content/headers#template) header in the page frontmatter, to make it use the `form` template.
 
